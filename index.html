@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enzo Bossardi — Portfólio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="logo-Index.png" type="image/x-icon">
+</head>
+<body>
+
+  <nav>
+    <a href="#" class="nav-logo">EB</a>
+    <ul class="nav-links">
+      <li><a href="#habilidades">Habilidades</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+    </ul>
+    <div class="lang-wrapper">
+      <input type="checkbox" id="lang-toggle" />
+      <label class="lang-btn" for="lang-toggle">
+        <img src="https://flagcdn.com/br.svg" width="18" alt="Idioma" style="border-radius:2px; vertical-align:-2px;" /> Idioma <span class="lang-chevron">▾</span>
+      </label>
+      <div class="lang-dropdown">
+        <a href="index.html" class="active"><img src="https://flagcdn.com/br.svg" width="18" alt="Brasil" style="border-radius:2px; vertical-align:-2px;" /> Português</a>
+        <a href="index-en.html"><img src="https://flagcdn.com/us.svg" width="18" alt="EUA" style="border-radius:2px; vertical-align:-2px;" /> English</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+
+    <div class="hero">
+      <p class="hero-label">Portfólio</p>
+      <h1 class="hero-name">Enzo Bossardi</h1>
+      <p class="hero-desc">Desenvolvedor em formação, com foco em desenvolvimento web. Aprendendo na prática, um projeto de cada vez.</p>
+      <div class="hero-tags">
+        <span class="tag green">🎓 HTML &amp; CSS — freeCodeCamp</span>
+        <span class="tag blue">⚙ Python em andamento</span>
+        <span class="tag blue">⚡ JavaScript iniciado</span>
+        <span class="tag gray">Ensino médio técnico</span>
+      </div>
+    </div>
+
+    <section id="habilidades">
+      <p class="section-label">Habilidades técnicas</p>
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <div class="skill-top">
+            <span class="skill-name">HTML</span>
+            <span class="badge badge-green">Certificado</span>
+          </div>
+          <div class="skill-bar"><div class="skill-bar-fill fill-green" style="width:85%"></div></div>
+          <p class="skill-note">freeCodeCamp</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-top">
+            <span class="skill-name">CSS</span>
+            <span class="badge badge-green">Certificado</span>
+          </div>
+          <div class="skill-bar"><div class="skill-bar-fill fill-green" style="width:80%"></div></div>
+          <p class="skill-note">freeCodeCamp</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-top">
+            <span class="skill-name">Python</span>
+            <span class="badge badge-amber">Em andamento</span>
+          </div>
+          <div class="skill-bar"><div class="skill-bar-fill fill-amber" style="width:45%"></div></div>
+          <p class="skill-note">Curso em progresso</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-top">
+            <span class="skill-name">JavaScript</span>
+            <span class="badge badge-gray">Pausado</span>
+          </div>
+          <div class="skill-bar"><div class="skill-bar-fill fill-gray" style="width:30%"></div></div>
+          <p class="skill-note">Metade do curso</p>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="projetos">
+      <p class="section-label">Projetos</p>
+      <div class="projects-list">
+
+        <a class="project-card" href="https://senacscs.github.io/t4/enzo/index.html" target="_blank" rel="noopener">
+          <div class="project-icon">🏫</div>
+          <div class="project-info">
+            <p class="project-title">Site da escola técnica <span class="arrow">↗</span></p>
+            <p class="project-desc">Projeto desenvolvido durante o curso técnico. Primeiro contato real com estruturação de páginas HTML e estilização com CSS.</p>
+            <div class="project-techs">
+              <span class="tech-pill">HTML</span>
+              <span class="tech-pill">CSS</span>
+            </div>
+          </div>
+        </a>
+
+        <a class="project-card" href="https://www.freecodecamp.org/enzobossardi208" target="_blank" rel="noopener">
+          <div class="project-icon">💻</div>
+          <div class="project-info">
+            <p class="project-title">Projeto freeCodeCamp <span class="arrow">↗</span></p>
+            <p class="project-desc">Projeto final da certificação de Web Design Responsivo. Foco em boas práticas de marcação semântica e layout responsivo.</p>
+            <div class="project-techs">
+              <span class="tech-pill">HTML</span>
+              <span class="tech-pill">CSS</span>
+              <span class="tech-pill">Responsivo</span>
+            </div>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <section id="sobre">
+      <p class="section-label">Sobre</p>
+      <div class="sobre-card">
+        <div class="avatar">EB</div>
+        <div class="sobre-text">
+          <p>Olá! Sou o Enzo, tenho interesse em desenvolvimento web e estou construindo minha base técnica através de cursos e projetos práticos.</p>
+          <p>Concluí o primeiro ano do ensino médio técnico e estou finalizando minha certificação de HTML e CSS pelo freeCodeCamp. Atualmente estudo Python e pretendo retomar JavaScript em breve.</p>
+          <p>Este portfólio é um registro vivo da minha trajetória — cada projeto aqui representa um passo no aprendizado.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    Feito com HTML &amp; CSS · Enzo Bossardi
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Enzo Bossardi — Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css">
+  <link rel="shortcut icon" href="logo-Index.png" type="image/x-icon">
+</head>
+<body>
+
+  <nav>
+    <a href="#" class="nav-logo">EB</a>
+    <ul class="nav-links">
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#about">About</a></li>
+    </ul>
+    <div class="lang-wrapper">
+      <input type="checkbox" id="lang-toggle" />
+      <label class="lang-btn" for="lang-toggle">
+        <img src="https://flagcdn.com/us.svg" width="18" alt="Language" style="border-radius:2px; vertical-align:-2px;" /> Language <span class="lang-chevron">▾</span>
+      </label>
+      <div class="lang-dropdown">
+        <a href="index.html"><img src="https://flagcdn.com/br.svg" width="18" alt="Brasil" style="border-radius:2px; vertical-align:-2px;" /> Português</a>
+        <a href="index-en.html" class="active"><img src="https://flagcdn.com/us.svg" width="18" alt="USA" style="border-radius:2px; vertical-align:-2px;" /> English</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+
+    <div class="hero">
+      <p class="hero-label">Portfolio</p>
+      <h1 class="hero-name">Enzo Bossardi</h1>
+      <p class="hero-desc">Developer in training, focused on web development. Learning through practice, one project at a time.</p>
+      <div class="hero-tags">
+        <span class="tag green">🎓 HTML &amp; CSS — freeCodeCamp</span>
+        <span class="tag blue">⚙ Python in progress</span>
+        <span class="tag blue">⚡ JavaScript started</span>
+        <span class="tag gray">Technical high school</span>
+      </div>
+    </div>
+
+    <section id="skills">
+      <p class="section-label">Technical skills</p>
+      <div class="skills-grid">
+
+        <div class="skill-card">
+          <div class="skill-top">
+            <span class="skill-name">HTML</span>
+            <span class="badge badge-green">Certified</span>
+          </div>
+          <div class="skill-bar"><div class="skill-bar-fill fill-green" style="width:85%"></div></div>
+          <p class="skill-note">freeCodeCamp</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-top">
+            <span class="skill-name">CSS</span>
+            <span class="badge badge-green">Certified</span>
+          </div>
+          <div class="skill-bar"><div class="skill-bar-fill fill-green" style="width:80%"></div></div>
+          <p class="skill-note">freeCodeCamp</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-top">
+            <span class="skill-name">Python</span>
+            <span class="badge badge-amber">In progress</span>
+          </div>
+          <div class="skill-bar"><div class="skill-bar-fill fill-amber" style="width:45%"></div></div>
+          <p class="skill-note">Course in progress</p>
+        </div>
+
+        <div class="skill-card">
+          <div class="skill-top">
+            <span class="skill-name">JavaScript</span>
+            <span class="badge badge-gray">Paused</span>
+          </div>
+          <div class="skill-bar"><div class="skill-bar-fill fill-gray" style="width:30%"></div></div>
+          <p class="skill-note">Halfway through</p>
+        </div>
+
+      </div>
+    </section>
+
+    <section id="projects">
+      <p class="section-label">Projects</p>
+      <div class="projects-list">
+
+        <a class="project-card" href="senacscs.github.io/t4/enzo/index.html" target="_blank" rel="noopener">
+          <div class="project-icon">🏫</div>
+          <div class="project-info">
+            <p class="project-title">Technical school website <span class="arrow">↗</span></p>
+            <p class="project-desc">Project developed during the technical course. First real experience with HTML page structure and CSS styling.</p>
+            <div class="project-techs">
+              <span class="tech-pill">HTML</span>
+              <span class="tech-pill">CSS</span>
+            </div>
+          </div>
+        </a>
+
+        <a class="project-card" href="https://www.freecodecamp.org/enzobossardi208" target="_blank" rel="noopener">
+          <div class="project-icon">💻</div>
+          <div class="project-info">
+            <p class="project-title">freeCodeCamp project <span class="arrow">↗</span></p>
+            <p class="project-desc">Final project for the Responsive Web Design certification. Focused on semantic markup best practices and responsive layout.</p>
+            <div class="project-techs">
+              <span class="tech-pill">HTML</span>
+              <span class="tech-pill">CSS</span>
+              <span class="tech-pill">Responsive</span>
+            </div>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <section id="about">
+      <p class="section-label">About</p>
+      <div class="sobre-card">
+        <div class="avatar">EB</div>
+        <div class="sobre-text">
+          <p>Hi! I'm Enzo, passionate about web development and building my technical foundation through courses and hands-on projects.</p>
+          <p>I completed my first year of technical high school and I'm finishing my HTML and CSS certification through freeCodeCamp. I'm currently studying Python and plan to get back to JavaScript soon.</p>
+          <p>This portfolio is a living record of my journey — every project here represents a step in my learning.</p>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer>
+    Made with HTML &amp; CSS · Enzo Bossardi
+  </footer>
+
+</body>
+</html>
