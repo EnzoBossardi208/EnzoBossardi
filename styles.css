@@ -402,6 +402,43 @@
 
     .sobre-text p:last-child { margin-bottom: 0; }
 
+    /* SOCIAL  */
+
+     .social-card {
+      background: var(--surface);
+      border: 0.5px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem 1.75rem;
+      display: flex;
+      gap: 1.5rem;
+      align-items: flex-start;
+    }
+
+    .social-text li {
+      margin: auto;
+      align-items: center;
+      justify-content: center;
+      margin-top: 10px;
+      margin-right: 10px;
+
+      list-style: none;
+      display: inline-block;
+    }
+
+    .social-text a {
+      display: inline-block;
+      transition: all 0.5s;
+    }
+
+    .social-text a:hover {
+      transform: scale(1.3) translateY(-6px);
+    }
+
+    .social-text li:last-child { margin-bottom: 0;}
+
+    .social-text p:last-child { margin-bottom: 0; }
+
+
     /* FOOTER */
     footer {
       text-align: center;
