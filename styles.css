@@ -20,6 +20,12 @@
       --gray-bg: #F1EFE8;
       --blue: #185FA5;
       --blue-bg: #E6F1FB;
+      --orange: #D97706;
+      --orange-bg: #FEF3C7;
+      --yellow: #A16207;
+      --yellow-bg: #FFF59D;
+      --red: #DC2626;
+      --red-bg: #FEE2E2;
     }
 
     html { scroll-behavior: smooth; }
@@ -206,6 +212,10 @@
     .tag.green { border-color: #C0DD97; color: var(--green); background: var(--green-bg); }
     .tag.blue  { border-color: #B5D4F4; color: var(--blue);  background: var(--blue-bg); }
     .tag.gray  { border-color: #D3D1C7; color: var(--gray-text); background: var(--gray-bg); }
+    .tag.orange { border-color: #F59E0B; color: var(--orange); background: var(--orange-bg); }
+    .tag.yellow { border-color: #FACC15; color: var(--yellow); background: var(--yellow-bg); }
+    .tag.red { border-color: #F87171; color: var(--red); background: var(--red-bg); }
+    
 
     /* SECTIONS */
     section {
